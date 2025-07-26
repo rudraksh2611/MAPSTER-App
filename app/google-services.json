@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "578173018151",
+    "project_id": "mapster-3b9b2",
+    "storage_bucket": "mapster-3b9b2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:578173018151:android:09230f7b6d6c8c3ea82e02",
+        "android_client_info": {
+          "package_name": "com.example.mapster"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsgSUiMjaSUexLrlPm8u6Ve96aznoEI3g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
