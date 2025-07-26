@@ -1,84 +1,130 @@
-# 🗺️ MAPSTER - Indoor Navigation System
+# 🗺️ MAPSTER: Indoor Navigation App
 
-Mapster is designed to assist users navigating **large indoor spaces**—such as university campuses, hospitals, museums, and office buildings—**where GPS and internet access may be limited or unavailable**.
+> **MAPSTER** is an innovative **Indoor Navigation System** designed to help users find their way inside large buildings such as malls, hospitals, offices, and universities — all **without requiring internet access**.
+The app utilizes **QR code-based localization** and the **A* (A-Star) algorithm** to determine the shortest path between the user’s current position and the selected destination. With a clean user interface and offline capabilities, MAPSTER provides a seamless and reliable experience for indoor navigation. It aims to assist visitors, staff, and students in navigating complex layouts with ease.
+This project was built using Android Studio and written in Kotlin, with a strong focus on usability and accessibility. Data Structures and Algorithms (DSA) concepts were employed in the backend to implement efficient pathfinding.
 
-Using **Dijkstra’s algorithm**, Mapster efficiently calculates the shortest path from a user’s scanned location (via QR code) to their destination, ensuring **intuitive, offline navigation**.
+Explore the repo to learn more!
 
 ---
 
-## 🚀 Features
+## 📱 Features
 
-- 📸 Scan QR code to get real-time position  
-- 🔍 Enter destination to get shortest route  
-- 🌐 Works **offline** without internet or GPS  
-- 🧭 Optimized for indoor navigation  
-- 🎯 Minimalistic and user-friendly interface  
-- 🔐 Custom-built **Mapster login system** (no Google/third-party login)
+- 🔍 Scan or Upload QR Codes to detect location
+- 📍 Set Destination Easily
+- 🧠 A* Algorithm for Pathfinding
+- 📡 Offline Functionality – no internet needed
+- 🤖 Built with ML and Android Studio
+
+---
+
+## 🚀 Technologies Used
+
+- Android Studio (Java/Kotlin)
+- A* Pathfinding Algorithm
+- QR Code Scanner Library
+- SQLite (Offline Data)
+- XML for UI Design
+
+---
+
+## 🧠 How It Works
+
+1. User scans QR Code placed at each location
+2. App fetches current coordinates from the QR
+3. User sets the desired destination
+4. A* algorithm finds the shortest path
+5. User is guided step-by-step on screen
 
 ---
 
 ## 📸 App Preview
 
-### 🏁 Face Page of Mapster  
-![Face Page of Mapster](https://raw.githubusercontent.com/rudraksh2611/MAPSTER-App/main/images/First%20Page%20for%20new%20User.jpg)  
-<br>
+### 🧭 Face Page of Mapster  
+![Face Page](https://github.com/rudraksh2611/MAPSTER-App/blob/main/images/First%20Page%20for%20new%20User.jpg)
 
-### 📝 New Registration Page  
-![New Registration](https://raw.githubusercontent.com/rudraksh2611/MAPSTER-App/main/images/New%20Registration%20Page.jpg)  
-<br>
+---
 
-### 🔐 Already Registered Page  
-![Already Registration](https://raw.githubusercontent.com/rudraksh2611/MAPSTER-App/main/images/Already%20Register.jpg)  
-<br>
+### 📝 New Registration  
+![New Registration](https://github.com/rudraksh2611/MAPSTER-App/blob/main/images/New%20Registration%20Page.jpg)
+
+---
+
+### 🔐 Already Registered  
+![Already Registered](https://github.com/rudraksh2611/MAPSTER-App/blob/main/images/Already%20Register.jpg)
+
+---
 
 ### 📷 Scan or Upload QR Code  
-![Scan or Upload QR Code](https://raw.githubusercontent.com/rudraksh2611/MAPSTER-App/main/images/Scan%20QR%20Code.jpg)  
-<br>
-
-### 🎯 Enter Destination Page  
-![Enter Destination](https://raw.githubusercontent.com/rudraksh2611/MAPSTER-App/main/images/Enter%20Destination.jpg)  
-<br>
-
-### 📍 Final Path Result Page  
-![Resulting Page](https://raw.githubusercontent.com/rudraksh2611/MAPSTER-App/main/images/Resulting%20page.jpg)  
-<br>
+![Scan QR](https://github.com/rudraksh2611/MAPSTER-App/blob/main/images/Scan%20QR%20Code.jpg)
 
 ---
 
-## 🧠 Tech Stack & Concepts Used
-
-| Layer              | Technology                         |
-|-------------------|------------------------------------|
-| **Frontend**       | Kotlin, Android Studio (XML UI)   |
-| **Backend**        | Python (Dijkstra’s algorithm)     |
-| **Interfacing**    | QR Code Scanning, SQLite Storage  |
-| **Algorithm Used** | DSA (Graph + Dijkstra Algorithm)  |
-| **Offline Logic**  | Custom Android Logic, File I/O    |
+### 📍 Enter Destination  
+![Destination](https://github.com/rudraksh2611/MAPSTER-App/blob/main/images/Enter%20Destination.jpg)
 
 ---
 
-## 📲 How It Works
-
-1. **User scans QR code** at their current location.  
-2. App maps the code to a specific position on the indoor graph.  
-3. User selects or enters a **destination**.  
-4. App computes shortest path using **Dijkstra’s algorithm**.  
-5. Navigation steps are displayed **instantly and offline**.
+### 🧮 Resulting Path Page  
+![Result Page](https://github.com/rudraksh2611/MAPSTER-App/blob/main/images/Resulting%20page.jpg)
 
 ---
 
-## ⚙️ Setup Instructions
-
-### 🧰 Prerequisites
-
-- Android Studio (Arctic Fox or above)  
-- Kotlin SDK (bundled with Android Studio)  
-- Python 3.10+ (optional, for backend simulation or debugging)  
-- SQLite plugin (optional, for database inspection)  
-- QR code generator (optional, for testing locations)
-
-### 📦 Clone the Repository
+## 🛠️ Installation
 
 ```bash
 git clone https://github.com/rudraksh2611/MAPSTER-App.git
 cd MAPSTER-App
+Open with Android Studio
+Build and Run on Emulator or Device
+```
+
+---
+
+## 📂 Folder Structure
+
+```
+MAPSTER-App/
+│
+├── .idea/ # Android Studio IDE config files
+├── app/ # Main application code
+│ ├── src/
+│ └── build.gradle
+├── gradle/ # Gradle configuration
+├── images/ # App preview images
+├── README.md # Project documentation
+├── .gitignore
+├── build.gradle.kts
+├── gradle.properties
+├── gradlew
+├── gradlew.bat
+└── settings.gradle.kts
+```
+
+---
+
+## 🤝 Contributing
+
+Contributions, ideas, and feedback are welcome!  
+Open an issue or create a pull request.
+
+---
+
+## 📜 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## 🙋‍♂️ Author
+
+**Rudraksh Singh Bhadauria**  
+[LinkedIn](https://www.linkedin.com/in/rudraksh2611/) | [GitHub](https://github.com/rudraksh2611)
+
+**Astitva Yadav**
+[LinkedIn](https://www.linkedin.com/in/rudraksh2611/) | [GitHub](https://github.com/rudraksh2611)
+
+**Palak Singh**
+[LinkedIn](http://www.linkedin.com/in/palak-singh-aba2292a3) | [GitHub](https://github.com/Palak20-singh)
+
+
