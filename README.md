@@ -122,7 +122,7 @@ This project is licensed under the [MIT License](LICENSE).
 [LinkedIn](https://www.linkedin.com/in/rudraksh2611/) | [GitHub](https://github.com/rudraksh2611)
 
 **Astitva Yadav**
-[LinkedIn](https://www.linkedin.com/in/rudraksh2611/) | [GitHub](https://github.com/rudraksh2611)
+[LinkedIn](https://www.linkedin.com/in/astitva-yadav-b2ba99375) | [GitHub](https://github.com/rudraksh2611)
 
 **Palak Singh**
 [LinkedIn](http://www.linkedin.com/in/palak-singh-aba2292a3) | [GitHub](https://github.com/Palak20-singh)
